@@ -43,23 +43,23 @@ function Scissorsification() {
 
 function Game(a, b) {
     if (a == "rock" && b == "rock") {
-        fin.textContent = "Its a Tie!"
+        fin.textContent = `${a} vs ${b}! Its a Tie!`
     } else if (a == "paper" && b == "paper") {
-        fin.textContent = "Its a Tie!"
+        fin.textContent = `${a} vs ${b}! Its a Tie!`
     } else if (a == "scissors" && b == "scissors") {
-        fin.textContent = "Its a Tie!"
+        fin.textContent = `${a} vs ${b}! Its a Tie!`
     } else if (a == "rock" && b == "paper") {
-        fin.textContent = "You Lose, try again."
+        fin.textContent = `${a} vs ${b}! You Lose, try again.`
     } else if (a == "rock" && b == "scissors") {
-        fin.textContent = "You win!"
+        fin.textContent = `${a} vs ${b}! You win!`
     } else if (a == "paper" && b == "rock") {
-        fin.textContent = "You win!"
+        fin.textContent = `${a} vs ${b}! You win!`
     } else if (a == "paper" && b == "scissors") {
-        fin.textContent = "You Lose, try again."
+        fin.textContent = `${a} vs ${b}! You Lose, try again.`
     } else if (a == "scissors" && b == "rock") {
-        fin.textContent = "You Lose, try again"
+        fin.textContent = `${a} vs ${b}! You Lose, try again`
     } else if (a == "scissors" && b == "paper") {
-        fin.textContent = "You win!"
+        fin.textContent = `${a} vs ${b}! You win!`
     } else {
         fin.textContent = "Something went wrong"
     };
