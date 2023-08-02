@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 250px;
+    margin-right: 30px;
+    background-color: black;
+    color: white;
+}
+
+#var-list {
+    list-style: none;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#Rock-img,
+#Paper-img,
+#Scissors-img {
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#Rock-img {
+    background-color: white;
+}
